@@ -26,6 +26,7 @@
 
 body {
   background: var(--bg-url) top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -145,4 +146,13 @@ footer {
   font-size: 14px;
 }
 
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/fundoescuro.png);
+  }
+
+  .light {
+    --bg-url: url(./assets/fundoclaro.avif);
+  }
+}
 
